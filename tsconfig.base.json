@@ -16,6 +16,13 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["development"]
+    "customConditions": ["development"],
+    "paths": {
+      "@mentraze/backend-utils": ["packages/libs/backend-utils/src/index.ts"],
+      "@mentraze/shared-models": ["packages/libs/shared-models/src/index.ts"],
+      "@mentraze/shared-services": [
+        "packages/libs/shared-services/src/index.ts"
+      ]
+    }
   }
 }
